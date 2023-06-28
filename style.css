@@ -113,7 +113,7 @@ h4 {
 .section1__ft {
   height: 700px;
   margin: 0 auto;
-  background-image: url(/assets/images/Giant\ Panda.png);
+  background-image: url(/online-zoo/assets/images/Giant\ Panda.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1205,7 +1205,7 @@ input.input__footer::placeholder {
     width: 70px;
     height: 26px;
     margin-bottom: 0;
-    background-image: url(/vkradchenko-JSFE2022Q3/online-zoo/assets/icons/arrow.svg);
+    background-image: url(/online-zoo/assets/icons/arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1265,7 +1265,7 @@ input.input__footer::placeholder {
     position: fixed;
     left: calc(50% + 145px);
     top: calc(50% - 205px);
-    background: url(../../assets/icons/x_icon_popup.svg);
+    background: url(/online-zoo/assets/icons/x_icon_popup.svg);
     z-index: 100;
   }
   .slidecontainer {

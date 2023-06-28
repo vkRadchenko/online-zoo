@@ -232,15 +232,15 @@ p {
   -moz-appearance: none;
   appearance: none;
   z-index: 10;
-  background: url(/assets/icons/dot.svg) no-repeat center;
+  background: url(/online-zoo/assets/icons/dot.svg) no-repeat center;
   border-radius: 50%;
 }
 
 .progressbar_item input[type='radio']:checked {
   width: 40px;
   height: 40px;
-  background: url(/assets/icons/roller_icon.svg) no-repeat,
-    url(/assets/icons/dot.svg) no-repeat center;
+  background: url(/online-zoo/assets/icons/roller_icon.svg) no-repeat,
+    url(/online-zoo/assets/icons/dot.svg) no-repeat center;
 }
 
 .option-input:checked ~ .progress_bar_label {
@@ -894,8 +894,9 @@ input.input__footer::placeholder {
     align-items: flex-start;
   }
   .progressbar_item input[type='radio']:checked {
-    background: url(/assets/icons/roller_icon.svg) no-repeat center/85%,
-      url(/assets/icons/dot.svg) no-repeat center/25%;
+    background: url(/online-zoo/assets/icons/roller_icon.svg) no-repeat
+        center/85%,
+      url(/online-zoo/assets/icons/dot.svg) no-repeat center/25%;
     position: absolute;
     width: 20px;
     height: 20px;
